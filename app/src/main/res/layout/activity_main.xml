@@ -38,19 +38,19 @@
         <Button
             android:id="@+id/button01"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:text="Etape de Fabrication" />
 
         <Button
             android:id="@+id/button02"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:text="Outils de Fabrication" />
 
         <Button
             android:id="@+id/button03"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:text="Vos recettes" />
 
     </LinearLayout>
