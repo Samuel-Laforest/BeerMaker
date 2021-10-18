@@ -53,7 +53,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/edit_outil01"
+                    android:id="@+id/saisie_1"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -82,7 +82,7 @@
                     android:text="Degré d'acool recherché:" />
 
                 <EditText
-                    android:id="@+id/edit_outil02"
+                    android:id="@+id/saisie_2"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -110,7 +110,7 @@
                     android:text="Moyenne EBC des gains utilisés:" />
 
                 <EditText
-                    android:id="@+id/edit_outil03"
+                    android:id="@+id/saisie_3"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -127,10 +127,79 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/boutoncalcul"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Calcul" />
+
+            <LinearLayout
+                android:id="@+id/blockrésultat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/résultat9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/résultat10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/boutonEnregistrer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enregistrer la recette"
+                    android:visibility="invisible" />
+            </LinearLayout>
 
         </LinearLayout>
 
