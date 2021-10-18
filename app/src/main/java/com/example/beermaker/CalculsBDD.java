@@ -1,7 +1,7 @@
 package com.example.beermaker;
 
 public class CalculsBDD extends Calculs{
-    //Attributs
+    //Attribut
     Integer id;
 
     public CalculsBDD(Integer id, Double volumeBiere, Double alcoolDegre, Double moyenneEBC) {

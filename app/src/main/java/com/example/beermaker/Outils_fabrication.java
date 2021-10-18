@@ -70,6 +70,7 @@ public class Outils_fabrication extends AppCompatActivity {
         enregistrer = findViewById(R.id.boutonEnregistrer);
         lancercalcul = findViewById(R.id.boutoncalcul);
         accesLocal = new AccesLocal(this);
+        listeBdd = findViewById(R.id.listerecette);
     }
 
     private void résultat(){
@@ -87,6 +88,7 @@ public class Outils_fabrication extends AppCompatActivity {
         fondcouleur.setBackgroundColor(Color.parseColor(srmToRGB(calculs.calcSrm())));
         fondcouleur.setText(srmToRGB(calculs.calcSrm()));
         blockresultat.setVisibility(View.VISIBLE);
+        enregistrer.setVisibility(View.VISIBLE);
 
     }
 

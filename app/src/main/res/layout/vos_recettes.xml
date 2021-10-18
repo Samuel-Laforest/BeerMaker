@@ -36,16 +36,14 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/etape_texte1"
+            android:id="@+id/nbrRecette"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/button04"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listerecette"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:text="retour" />
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 
